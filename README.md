@@ -2,6 +2,8 @@
 
 This repository contains code and data to reproduce the analysis in Niemi et al. "Empirical Bayes analysis of RNA-seq data for detection of gene expression heterosis".
 
+## Files
+
 - common/ a directory for common files
   - empirical_estimate_function.R: a function to implement Ji et al.
   - get_hyperparameters.R: function to obtain hyperparameters
@@ -27,4 +29,14 @@ This repository contains code and data to reproduce the analysis in Niemi et al.
   - create_Makefile.R: an R script to create the Makefile
   - ji-sim-script.R: a script to perform Ji et al. on simulated data
   - sim-script.R: a script to perform eBayes analysis of simulation data
+
+## Instructions
+
+### Real data analysis 
+
+To recreate the real data analysis, run `make` in the real/ directory.
+
+### Simulation study
+
+To recreate the real data analysis, run `make` in the sim/ directory.
 
