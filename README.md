@@ -34,9 +34,18 @@ This repository contains code and data to reproduce the analysis in Niemi et al.
 
 ### Real data analysis 
 
-To recreate the real data analysis, run `make` in the real/ directory.
+To recreate the real data analysis, run 
+
+    make 
+
+in the real/ directory.
 
 ### Simulation study
 
-To recreate the real data analysis, run `make` in the sim/ directory.
+To recreate the real data analysis, run 
+
+    Rscript create_Makefile.R
+    make
+
+in the sim/ directory.
 
