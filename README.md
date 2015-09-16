@@ -32,6 +32,8 @@ This repository contains code and data to reproduce the analysis in Niemi et al.
 
 ## Instructions
 
+These instructions assume you have access to the program [make](https://www.gnu.org/software/make/).
+
 ### Real data analysis 
 
 To recreate the real data analysis, run 
