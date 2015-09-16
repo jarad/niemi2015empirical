@@ -44,6 +44,8 @@ in the real/ directory.
 
 ### Simulation study
 
+As the simulation study performs the analysis for a total of 30 data sets for each of the methods, this will take a while to run. 
+
 To recreate the real data analysis, run 
 
     Rscript create_Makefile.R
